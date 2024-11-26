@@ -39,9 +39,9 @@ function agendarEvento() {
 }
 
 function agendarEvento() {
-    const title = encodeURIComponent("Cumpleaños de Florencia");
-    const description = encodeURIComponent("¡Únete a la celebración del cumpleaños de Florencia! Una fiesta llena de alegría y emoción.");
-    const location = encodeURIComponent("Barrio Isla Malvina Mza E casa 5");
+    const title = encodeURIComponent("Cumpleaños de Rosa Ramos");
+    const description = encodeURIComponent("¡Únete a la celebración del cumpleaños de Rosa! Una fiesta llena de alegría y emoción.");
+    const location = encodeURIComponent("Hipólito Yrigoyen 550 - La Merced");
     const startDate = "20241119T133000"; // Fecha y hora de inicio en formato YYYYMMDDTHHMMSS
     const endDate = "20241119T153000"; // Fecha y hora de fin en formato YYYYMMDDTHHMMSS
 
@@ -59,7 +59,7 @@ function confirmarAsistencia() {
 
 function confirmarAsistencia() {
     const phoneNumber = "+543875712694"; // Número de WhatsApp
-    const message = encodeURIComponent("Hola Natali, Quiero confirmar mi asistencia a la fiesta de tu mami, Muchas Gracias"); // Mensaje de confirmación
+    const message = encodeURIComponent("Hola Franco, Quiero confirmar mi asistencia a la fiesta de tu mami, Muchas Gracias"); // Mensaje de confirmación
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
     // Abrir en una nueva ventana o pestaña
